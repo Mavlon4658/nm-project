@@ -1,0 +1,20 @@
+// Fonts
+$font-lato: "Lato", sans-serif;
+$font-gilroy: "Gilroy", sans-serif;
+// Fonts end
+
+// Colors
+// Colors end
+
+@mixin media($value) {
+    @if ($value < 0) {
+        @media screen and (min-width: calc($value * (-1)) + 'px') {
+            @content;
+        }
+
+    } @else {
+        @media screen and (max-width: $value + 'px') {
+            @content;
+        }
+    }
+}

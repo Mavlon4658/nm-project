@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./assets/fonts/Gilroy/fonts.css">
+    <link rel="stylesheet" href="./assets/fonts/Lato/fonts.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Syle CSS -->
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-container">
+                <a href="/" class="header-logo">
+                    <img src="./assets/images/logo.svg" alt="">
+                    <img src="./assets/images/logo-light.svg" alt="">
+                </a>
+                <button class="header-btn">
+                    <img src="./assets/images/bars.svg" alt="" class="bars">
+                    <img src="./assets/images/header-times-icon.svg" alt="" class="times">
+                </button>
+                <ul>
+                    <li>
+                        <a href="#">Для кого обучение</a>
+                    </li>
+                    <li>
+                        <a href="#">Про спикера</a>
+                    </li>
+                    <li>
+                        <a href="#">Програма курса</a>
+                    </li>
+                    <li>
+                        <a href="#">Бонус</a>
+                    </li>
+                    <li>
+                        <a href="#">Отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Request modal -->
+        <section class="request-modal">
+            <div class="request-modal__bg"></div>
+            <div class="request-modal__dialog">
+                <div class="container">
+                    <div class="request-modal__content">
+                        <button class="request-modal__close">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M37.1875 37.1875L2.1875 2.1875M37.1875 2.1875L2.1875 37.1875" stroke="#014B9F" stroke-width="4.375" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                        <h2>Готовы начать путь в инвестициях?</h2>
+                        <h3>Оставьте заявку и получите доступ к обучению от экспертов рынка</h3>
+                        <div class="request-modal__form">
+                            <input type="text" placeholder="Ваше имя" class="form-inp">
+                            <input type="tel" placeholder="Ваш номер телефона" class="form-inp">
+                            <button class="btn-blue">Записаться на курс</button>
+                        </div>
+                        <p>колличество мест ограничено</p>
+                        <img src="./assets/images/request-modal-bg-1.png" alt="" class="bg-1">
+                        <img src="./assets/images/request-modal-bg-2.png" alt="" class="bg-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Request modal end -->
+    
+        <main>
+
+            <!-- Home -->
+            <section class="home">
+                <div class="container home-container">
+                    <h1 class="home-title">Школа инвестиций от <span>Николая Мрочковского</span></h1>
+                    <p class="home-subtitle">Практическое обучение инвестициям с нуля до уверенной стратегии и первых результатов под руководством действующих экспертов рынка</p>
+                    <div class="home-rating">
+                        <div class="stars">
+                            <img src="./assets/images/star-icon.svg" alt="">
+                            <img src="./assets/images/star-icon.svg" alt="">
+                            <img src="./assets/images/star-icon.svg" alt="">
+                            <img src="./assets/images/star-icon.svg" alt="">
+                            <img src="./assets/images/star-icon.svg" alt="">
+                        </div>
+                        <p>4.86 основе 465+ отзывов</p>
+                    </div>
+                    <div class="home-card">
+                        <img src="./assets/images/home-card.png" alt="">
+                        <img src="./assets/images/home-card-sm.png" alt="" class="sm">
+                    </div>
+                    <div class="home-form">
+                        <h2>Готовы начать путь в инвестициях?</h2>
+                        <h3>Оставьте заявку и получите доступ к обучению от экспертов рынка</h3>
+                        <div class="home-form__group">
+                            <input type="text" placeholder="Ваше имя" class="form-inp">
+                            <input type="tel" placeholder="Номер телефона" class="form-inp">
+                            <button class="btn-yellow">Начать обучение</button>
+                        </div>
+                        <div class="form-checkbox">
+                            <div class="form-checkbox__icon">
+                                <input type="checkbox" checked>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                    <path d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z"/>
+                                </svg>
+                            </div>
+                            <div class="form-checkbox__text">Нажимая “получить презентацию” вы даете согласие на обработку ваших персональных данных</div>
+                        </div>
+                    </div>
+                    <ul class="home-list">
+                        <li class="home-list__item">
+                            <h3>$2.8k</h3>
+                            <p>Средний пасивный доход после курса</p>
+                        </li>
+                        <li class="home-list__item">
+                            <h3>92%</h3>
+                            <p>Позитивных <br> отзывов</p>
+                        </li>
+                        <li class="home-list__item">
+                            <h3>12</h3>
+                            <p>Лет опыта в инвестициях</p>
+                        </li>
+                        <li class="home-list__item">
+                            <h3>6.5k+</h3>
+                            <p>Учеников прошло курс по инвестициям</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Home end -->
+
+            <!-- Treaning -->
+            <section class="treaning">
+                <div class="container treaning-container">
+                    <div class="treaning-left">
+                        <h2 class="treaning-title">
+                            Для кого <span>обучение</span>
+                        </h2>
+                        <ul>
+                            <li>
+                                <img src="./assets/images/round-done.svg" alt="" class="icon">
+                                <p>уже инвестировали, но не получили стабильного результата</p>
+                            </li>
+                            <li>
+                                <img src="./assets/images/round-done.svg" alt="" class="icon">
+                                <p>хотите создать капитал и источник дополнительного дохода</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="treaning-right">
+                        <ul>
+                            <li>
+                                <img src="./assets/images/round-done.svg" alt="" class="icon">
+                                <p>хотите разобраться в инвестициях и перестать терять деньги на хаотичных решениях</p>
+                            </li>
+                            <li>
+                                <img src="./assets/images/round-done.svg" alt="" class="icon">
+                                <p>начинающий инвестор без системы и понимания рисков</p>
+                            </li>
+                            <li>
+                                <img src="./assets/images/round-done.svg" alt="" class="icon">
+                                <p>устали от «инфо-шума» и ищете понятную пошаговую модель</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Treaning end -->
+
+            <!-- Teacher -->
+            <section class="teacher">
+                <div class="container teacher-container">
+                    <div class="teacher-title sm">Про спикера курса- <span>Николая Мрочковского</span></div>
+                    <div class="teacher-card">
+                        <img src="./assets/images/teacher-card.png" alt="" class="main-img">
+                        <div class="teacher-card__text">
+                            <img src="./assets/images/teacher-card-icon.svg" alt="" class="icon">
+                            <h3>#1</h3>
+                            <p>Самый безопасный инветор 2023</p>
+                        </div>
+                    </div>
+                    <div class="teacher-content">
+                        <h2 class="teacher-title">Про спикера курса- <span>Николая Мрочковского</span></h2>
+                        <p>Более 12 лет в инвестициях. Работает с реальными портфелями, а не теорией из книг. Помогает студентам выстроить инвестиционное мышление, разобраться в инструментах и избежать типичных ошибок новичков.</p>
+                        <h3>Специализация:</h3>
+                        <ul>
+                            <li>• фондовый рынок</li>
+                            <li>• долгосрочные инвестиции</li>
+                            <li>• управление рисками и капиталом</li>
+                        </ul>
+                        <a href="#" class="btn-blue request-modal__open">
+                            <span>Начать обучение</span>
+                            <img src="./assets/images/chevron-right-circle.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- Teacher end -->
+
+            <!-- Program -->
+            <section class="program">
+                <div class="container program-container">
+                    <div class="program-content">
+                        <h2>Программа курса</h2>
+                        <p>Продуманная пошаговая система обучения, которая формирует инвестиционное мышление и даёт практические инструменты для работы с капиталом. Курс построен от базовых понятий до самостоятельного принятия решений.</p>
+                        <img src="./assets/images/program-card.png" alt="" class="main-img">
+                    </div>
+                    <div class="program-accordion accordions">
+                        <div class="accordion active">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 1.</span> Основы инвестирования и финансового мышления</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 2.</span>Как работают рынки и инвестиционные инструменты</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 3.</span> Формирование инвестиционного портфеля</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 4.</span> Анализ активов и принятие решений</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 5.</span> Управление рисками и капиталом</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 6.</span> Типичные ошибки инвесторов и как их избежать</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-btn">
+                                <div class="accordion-btn__text"><span>Модуль 7.</span> Стратегии для разных целей и горизонтов</div>
+                                <div class="icon">
+                                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.179357 0.222377C-0.0597856 0.515271 -0.0597859 0.990144 0.179357 1.28304L2.49184 4.11251C3.29233 5.09196 4.78962 5.0916 5.58964 4.11177L7.90147 1.28033C8.14061 0.987436 8.14061 0.512563 7.90147 0.21967C7.66232 -0.0732241 7.2746 -0.0732227 7.03545 0.21967L4.81391 2.94053C4.41378 3.4306 3.66484 3.4306 3.26471 2.94054L1.04537 0.222377C0.806228 -0.0705158 0.4185 -0.0705158 0.179357 0.222377Z" fill="#014B9F" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="accordion-body__wrap">
+                                <ul class="accordion-body">
+                                    <li>
+                                        <span></span>
+                                        <p>Понимание принципов инвестирования и логики работы капитала</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Отличие инвестиций от спекуляций и типичных ошибок новичков</p>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <p>Постановка инвестиционных целей и выбор горизонта</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Program end -->
+
+            <!-- Bonus -->
+            <section class="bonus">
+                <div class="container bonus-container">
+                    <div class="bonus-head">
+                        <h2><span>Бонусные</span> лекции</h2>
+                        <ul>
+                            <li>Бонусный блок для более глубокого понимания инвестиций и уверенной работы в реальных рыночных условиях. </li>
+                            <li>Участники получают ответы на вопросы и дополнительные инструменты для принятия решений.</li>
+                        </ul>
+                    </div>
+                    <div class="bonus-card__wrap">
+                        <div class="bonus-card">
+                            <div class="bonus-card__head">
+                                <img src="./assets/images/bonus-card-1.png" alt="" class="main-img">
+                                <button class="play-btn video-modal__open">
+                                    <img src="./assets/images/play-white.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="bonus-card__body">
+                                <h3>Психология <br> инвестора</h3>
+                                <p>Как сохранять хладнокровие, контролировать эмоции и не принимать импульсивные решения </p>
+                                <a href="#" class="btn-yellow">Смотреть урок</a>
+                            </div>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-card__head">
+                                <img src="./assets/images/bonus-card-2.png" alt="" class="main-img">
+                                <button class="play-btn video-modal__open">
+                                    <img src="./assets/images/play-white.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="bonus-card__body">
+                                <h3>Разбор реальных кейсов и портфелей</h3>
+                                <p>Практические примеры инвестиций, ошибок и успешных стратегий на основе реальных ситуаций</p>
+                                <a href="#" class="btn-yellow">Смотреть урок</a>
+                            </div>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-card__head">
+                                <img src="./assets/images/bonus-card-3.png" alt="" class="main-img">
+                                <button class="play-btn video-modal__open">
+                                    <img src="./assets/images/play-white.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="bonus-card__body">
+                                <h3>Антикризисные стратегии</h3>
+                                <p>Как действовать в периоды нестабильности рынка и защищать капитал в сложных условиях</p>
+                                <a href="#" class="btn-yellow">Смотреть урок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Bonus end -->
+
+            <!-- Review -->
+            <section class="review">
+                <div class="container review-container">
+                    <h2>Отзывы наших учеников</h2>
+                    <div class="review-swp">
+                        <button class="swp-btn swp-btn__prev">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.828 6.778L9.192 1.414L7.778 0L0 7.778L7.778 15.556L9.192 14.142L3.828 8.778H16V6.778H3.828Z" fill="#F2F5F6" />
+                            </svg>
+                        </button>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide review-card">
+                                    <h3>“</h3>
+                                    <p>До обучения инвестировал хаотично и постоянно сомневался в решениях. Курс помог выстроить систему и понять, как управлять рисками. Теперь инвестирую спокойно и по плану.</p>
+                                    <div class="review-card__info">
+                                        <img src="./assets/images/avatar-1.png" alt="" class="main-img">
+                                        <div class="review-card__info-text">
+                                            <div class="review-card__info-name">Андрей К.</div>
+                                            <div class="review-card__info-type">Предприниматель</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide review-card">
+                                    <h3>“</h3>
+                                    <p>Шла на курс с нулевым пониманием инвестиций. Материал подан просто и без перегрузки, многое стало понятно уже в процессе обучения. Появилась уверенность и чёткое понимание, что делать.</p>
+                                    <div class="review-card__info">
+                                        <img src="./assets/images/avatar-2.png" alt="" class="main-img">
+                                        <div class="review-card__info-text">
+                                            <div class="review-card__info-name">Марина Л.</div>
+                                            <div class="review-card__info-type">Управляющая сетью ресторанов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide review-card">
+                                    <h3>“</h3>
+                                    <p>До обучения инвестировал хаотично и постоянно сомневался в решениях. Курс помог выстроить систему и понять, как управлять рисками. Теперь инвестирую спокойно и по плану.</p>
+                                    <div class="review-card__info">
+                                        <img src="./assets/images/avatar-1.png" alt="" class="main-img">
+                                        <div class="review-card__info-text">
+                                            <div class="review-card__info-name">Андрей К.</div>
+                                            <div class="review-card__info-type">Предприниматель</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide review-card">
+                                    <h3>“</h3>
+                                    <p>Шла на курс с нулевым пониманием инвестиций. Материал подан просто и без перегрузки, многое стало понятно уже в процессе обучения. Появилась уверенность и чёткое понимание, что делать.</p>
+                                    <div class="review-card__info">
+                                        <img src="./assets/images/avatar-2.png" alt="" class="main-img">
+                                        <div class="review-card__info-text">
+                                            <div class="review-card__info-name">Марина Л.</div>
+                                            <div class="review-card__info-type">Управляющая сетью ресторанов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="swp-btn swp-btn__next">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.172 6.778L6.808 1.414L8.222 0L16 7.778L8.222 15.556L6.808 14.142L12.172 8.778H0V6.778H12.172Z" fill="#F2F5F6" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="swp-pagination"></div>
+                </div>
+            </section>
+            <!-- Review end -->
+
+            <!-- Investing -->
+            <section class="investing">
+                <div class="container investing-container">
+                    <h2>Готовы начать путь в инвестициях?</h2>
+                    <a href="#" class="btn-yellow">
+                        <span>Записаться на курс</span>
+                        <img src="./assets/images/chevron-right-circle-2.svg" alt="">
+                    </a>
+                    <img src="./assets/images/investing-bg.png" alt="" class="bg-img">
+                    <img src="./assets/images/investing-bg-sm.png" alt="" class="bg-img sm">
+                </div>
+            </section>
+            <!-- Investing end -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-head">
+                    <div class="footer-head__left">
+                        <a href="/" class="logo">
+                            <img src="./assets/images/logo.svg" alt="">
+                        </a>
+                        <div class="text">
+                            <p>г. Москва, вн. тер. г. муниципальный округ Академический, ул. Вавилова, д. 19, этаж 3, помещ. В.03.016 </p>
+                            <a href="tel:+7 495 414-31-42" target="_blank">+7 495 414-31-42</a>
+                        </div>
+                    </div>
+                    <div class="footer-head__right">
+                        <p>ООО "С-МАРКЕТИНГ"</p>
+                        <p>ОГРН 5187746006157</p>
+                        <p>ИНН 7736319695</p>
+                    </div>
+                </div>
+                <ul class="footer-navs">
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Пользовательское Соглашение</a>
+                    </li>
+                    <li>
+                        <a href="#">Политика конфиденциальности</a>
+                    </li>
+                    <li>
+                        <a href="#">Условия оказания услуг</a>
+                    </li>
+                </ul>
+                <div class="footer-bottom">
+                    <p>Все права защищены 2026</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+
+    <!-- iMask JS -->
+    <script src="./assets/js/iMask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS file -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
